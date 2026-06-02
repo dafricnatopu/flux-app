@@ -28,10 +28,6 @@
   <rect width="680" height="220" fill="url(#grid)" />
   <rect width="680" height="3" fill="url(#barGrad)" />
 
-  <!-- App ambient glow effects (from app's .glow-dot concept) -->
-  <circle cx="100" cy="110" r="100" fill="#8b5cf6" opacity="0.06" filter="blur(40px)" />
-  <circle cx="580" cy="110" r="100" fill="#e879f9" opacity="0.05" filter="blur(40px)" />
-
   <!-- Perfectly Centered Logo -->
   <g transform="translate(315, 24) scale(2.2)">
     <path d="M13 2L3 14h9l-2 8 10-12h-9l2-8z" fill="url(#boltGrad)" />
