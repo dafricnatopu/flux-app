@@ -1,6 +1,6 @@
 <div align="center">
+  <img src="./flux_optimizer_readme_banner.svg" alt="Flux Optimizer Banner" width="100%" />
   
-  # ⚡ Flux Optimizer
   **The ultimate, elegantly designed system optimization and cleaning tool for Windows.**
 
   [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-blue.svg)](#)
