@@ -24,7 +24,6 @@
 
 ## 📸 Screenshots
 
-*(Tady později vložíme odkazy na vaše reálné screenshoty - Dashboard, Cleaner, Settings...)*
 > ![Dashboard Preview](https://via.placeholder.com/800x450/111827/FFFFFF?text=Beautiful+Live+Dashboard)
 
 ## 📥 Download & Installation
@@ -52,5 +51,5 @@ Have an idea for a new feature? Found a bug?
 
 ---
 <div align="center">
-  Made with ❤️ by [Tvoje Jméno / Dafric]
+  Made with ❤️ by Dafric
 </div>
