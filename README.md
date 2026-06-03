@@ -24,7 +24,7 @@
 
 ## 📸 Screenshots
 
-> ![Dashboard Preview](https://via.placeholder.com/800x450/111827/FFFFFF?text=Beautiful+Live+Dashboard)
+<img src="./mockupflux.jpg" alt="Flux Optimizer Dashboard" width="100%" />
 
 ## 📥 Download & Installation
 

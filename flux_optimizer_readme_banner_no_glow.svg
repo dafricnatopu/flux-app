@@ -1,0 +1,64 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Matched exactly to the app's Tailwind config -->
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="tinyGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#9CA3AF" flood-opacity="0.4" />
+    </filter>
+    <!-- Matched exactly to the app's .bg-grid class -->
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.2" fill="#FFFFFF" opacity="0.04" />
+    </pattern>
+    <!-- Glassmorphism pill background -->
+    <linearGradient id="glassBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141420" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0c0c14" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Matched exactly to the app's body background -->
+  <rect width="680" height="220" fill="#030304" />
+  <rect width="680" height="220" fill="url(#grid)" />
+  <rect width="680" height="3" fill="url(#barGrad)" />
+
+  <!-- Perfectly Centered Logo -->
+  <g transform="translate(315, 24) scale(2.2)">
+    <path d="M13 2L3 14h9l-2 8 10-12h-9l2-8z" fill="url(#boltGrad)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="340" y="112" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="34" font-weight="700" fill="#F0F0FF" letter-spacing="8">FLUX</text>
+  
+  <text x="340" y="133" text-anchor="middle" font-family="'Outfit', system-ui, sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" letter-spacing="6">OPTIMIZER</text>
+  
+  <text x="340" y="160" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#8B99B5">Modern system optimization tool for Windows 11</text>
+  
+  <!-- Glassmorphism feature pills -->
+  <g transform="translate(112, 195)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="url(#glassBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0">Tweaks</text>
+  </g>
+  <g transform="translate(226, 195)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="url(#glassBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0">Cleaner</text>
+  </g>
+  <g transform="translate(340, 195)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="url(#glassBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0">Network</text>
+  </g>
+  <g transform="translate(454, 195)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="url(#glassBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0">Startup</text>
+  </g>
+  <g transform="translate(568, 195)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="url(#glassBg)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <text x="0" y="4" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#e2e8f0">Updates</text>
+  </g>
+</svg>
